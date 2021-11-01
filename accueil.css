@@ -1,0 +1,265 @@
+.item_event{
+    border:1px black dotted;
+    width: 100%;
+    height: 50px;  
+}
+
+.NameApp{
+   position: absolute;
+   margin: 3vh 5vh;
+}
+
+/* Gestion du Menu Bar  */
+.bar_item{
+    position: absolute;
+    border: 1px black dotted;
+    width: 170px;
+    height: 91.1%;
+}
+
+.theme_event{
+    position: absolute;
+    border: 1px black dotted;
+    width: 1100px;
+    height: 150px;
+    margin: 5vh 33vh;
+}
+
+.profil_item{
+    position: absolute;
+    border: 1px black dotted;
+    width: 170px;
+    height: 130px;
+}
+
+.profil{
+    position: absolute;
+    margin: 8vh 9vh;
+    
+}
+
+.menu_item{
+    position: absolute;
+    border: 1px black dotted;
+    width: 170px;
+    height: 70px;
+    margin: 18.5vh 0vh;
+}
+
+.pos_bar{
+    position: absolute;
+    margin: 4vh 9vh;  
+}
+.pos_bar1{
+    position: absolute;
+    margin: 4vh 6vh;  
+}
+
+.createEvent_item{
+    position: absolute;
+    border: 1px black dotted;
+    width: 170px;
+    height: 70px;
+    margin: 28.5vh 0vh;
+}
+
+.notification_item{
+    position: absolute;
+    border: 1px black dotted;
+    width: 170px;
+    height: 70px;
+    margin: 38.5vh 0vh;
+}
+
+.mesEvents_item{
+    position: absolute;
+    border: 1px black dotted;
+    width: 170px;
+    height: 70px;
+    margin: 48.5vh 0vh;
+}
+/* fin de gestion Menu Bar */
+
+/* Gestion des themes */
+.item_art{
+    position: absolute;
+    border: 1px black dotted;
+    width: 130px;
+    height: 100px;
+    margin: 2vh 10vh;
+}
+
+.item_carte{
+    position: absolute;
+    border: 1px black dotted;
+    width: 130px;
+    height: 100px;
+    margin: 2vh 35vh; 
+}
+
+.item_conference{
+    position: absolute;
+    border: 1px black dotted;
+    width: 130px;
+    height: 100px;
+    margin: 2vh 60vh; 
+}
+
+.item_gala{
+    position: absolute;
+    border: 1px black dotted;
+    width: 130px;
+    height: 100px;
+    margin: 2vh 85vh; 
+}
+
+.item_mariage{
+    position: absolute;
+    border: 1px black dotted;
+    width: 130px;
+    height: 100px;
+    margin: 2vh 110vh; 
+}
+
+.item_ajouter{
+    position: absolute;
+    border: 1px black dotted;
+    width: 130px;
+    height: 100px;
+    margin: 2vh 135vh;
+}
+
+.positionNameTheme{
+    position: absolute;
+    margin: 5vh 3vh;
+    
+}
+
+/* Fiche de creation */
+.fiche_item{
+    border: 1px black dotted;
+    position: absolute;
+    margin:4vh 64vh;
+    width: 700px;
+    height: 900px;
+}
+
+.logo_item{
+    position: relative;
+    margin:8vh 32vh;
+    font-size: 55px;
+    border-bottom: 1px black dotted;
+}
+
+.margin_left{
+    position: absolute;
+    margin-left: 65px;
+    font-size: 25px;
+}
+
+.margin_t{
+    position: absolute;
+    margin-left: 65px;
+   
+}
+
+.margin_left1{
+    position: absolute;
+    margin-left: 269px;
+    font-size: 25px;
+}
+
+.margin_t1{
+    position: absolute;
+    margin-left: 265px;
+   
+}
+
+/* div conf */
+.div_conf{
+    position: absolute;
+    z-index: 1;
+    border: 1px black dotted;
+    width: 700px;
+    height: 100%;
+    margin: 30vh 44vh;
+    background-color: white;
+    box-shadow: 6px 6px 6px 6px black;
+}
+
+.theme_conf{
+    position: absolute;
+    z-index: 1;
+    border: 1px black dotted;
+    margin: 30vh 154vh;
+    width: 300px;
+    height: 400px;
+}
+
+.title_conf{
+    position: absolute;
+    margin: 10vh 41vh;
+    font-size: 55px;
+}
+
+.participant{
+    position: absolute;
+    border: 1px black dotted;
+    width: 450px;
+    height: 450px;
+    margin:18vh 10vh;
+}
+/* 
+.ajout_participant{
+    position: absolute;
+    border: 1px black dotted;
+    width: 30px;
+    height: 30px;
+    margin: 10vh 35vh;
+    background-color: darkgreen;
+    box-shadow: 3px 2px 2px 2px black;
+} */
+
+.borrr{
+    position: absolute;
+    border: 1px black dotted;
+    width: 40px;
+    height: 70px;
+    margin: 14vh 35vh;
+    background-color:red ;
+}
+
+.participant{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+   
+}
+
+
+.div-shadow{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 10px grey;
+    margin:0 1em 1em 0;
+    transition: all 100ms ease-in-out;
+}
+.div-shadows{
+    
+    box-shadow: 0px 0px 10px grey;
+    margin:0 1em 1em 0;
+    background-color: red;
+}
+
+.div-shadow:nth-child(even){
+    box-shadow:inset 0px 0px 10px grey;
+}
+
+.div-shadow:hover{
+    transform: scale(1.2);
+}
+
+.color{
+    background-color: black;
+}
+
